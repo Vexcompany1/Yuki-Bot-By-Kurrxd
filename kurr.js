@@ -425,8 +425,8 @@ return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a
                 case 0: jamss = "Dah Malam Jangan Gadang 🌚"; break;
                 case 1: jamss = "Dah Malam Jangan Gadang 🌚"; break;
                 case 2: jamss = "Dah Malam Jangan Gadang 🌚"; break;
-                case 3: jamss = "Dah Mau Shubuh Siap Siap Shalat Ya 🌔"; break;
-                case 4: jamss = "Dah Shubuh Jangan Lupa Shalat Kak🌔"; break;
+                case 3: jamss = "Dah Dini Hari jangan gadang Ya 🌔"; break;
+                case 4: jamss = "Dah Dini Hari jangan gadang Ya 🌔"; break;
                 case 5: jamss = "Pagi 🌄"; break;
                 case 6: jamss = "Pagi 🌄"; break;
                 case 7: jamss = "Pagi 🌄"; break;
@@ -512,7 +512,7 @@ const ftrol = {
                             itemCount : 99999,
                             status: 1,
                             surface : 1,
-                            message: `BOT AKTIF SELAMA : ${waktu(runtime)}`, //Kasih namalu
+                            message: `BOT FramzPm AKTIF SELAMA : ${waktu(runtime)}`, //Kasih namalu
                             orderTitle: `KurrXdゑ v.3.0`,
                             thumbnail: ofrply3, //Gambarnye
                             sellerJid: '0@s.whatsapp.net' 
@@ -726,7 +726,7 @@ options
 };
 
 const daftar1 = `Hai kak  ${pushname} ${tampilUcapan} \n\nSebelum Mengakses Bot Verify Terlebih Dahulu Ya `
-const daftar2 = '```Ketik Tombol Di Bawah Untuk Verify Kak jika button tidak terlihat ketik ${prefix}verify```'
+const daftar2 = '```Klik Tombol Di Bawah Untuk Verify Kak jika button tidak terlihat ketik ${prefix}verify```'
 const daftar3 = [{buttonId: `verify`,buttonText: {displayText: `犬DAFTAR犬`,},type: 1,},]
 
 const createSerial = (size) => {
@@ -1171,20 +1171,20 @@ reply(cpref)
 cpref = ` *Prefix Saat ini: ( ${prefix} )*`
 reply(cpref)
 }
-if(budy.includes('KurrXd')){
-kurr.sendMessage(from, "hayo ngomongin owner gua ya", text)
-kurr.sendMessage("6281220670449@s.whatsapp.net", `bang di gosipin Ama wa.me/${sender} Labrak Bang`, text)
-kurr.sendMessage(from, "Mampus Udh Ku Laporin", text)
+if(budy.includes('Framz')){
+kurr.sendMessage(from, "kenapa ya dengan owner gua?", text)
+kurr.sendMessage("62881037046507@s.whatsapp.net", `bang di gosipin Ama wa.me/${sender} Labrak Bang`, text)
+kurr.sendMessage(from, "hmmm", text)
 }
-if(budy.includes('kurrxd')){
-kurr.sendMessage(from, "hayo ngomongin owner gua ya", text)
-kurr.sendMessage("6281220670449@s.whatsapp.net", `bang di gosipin Ama wa.me/${sender} Labrak Bang`, text)
-kurr.sendMessage(from, "Mampus Udh Ku Laporin", text)
+if(budy.includes('FramzPm')){
+kurr.sendMessage(from, "kenapa ya dengan owner gua?", text)
+kurr.sendMessage("62881037046507@s.whatsapp.net", `bang di gosipin Ama wa.me/${sender} Labrak Bang`, text)
+kurr.sendMessage(from, "hmmm", text)
 }
-if(budy.includes('kurrtod')){
-kurr.sendMessage(from, "hayo ngomongin owner gua ya", text)
-kurr.sendMessage("6281220670449@s.whatsapp.net", `bang di gosipin Ama wa.me/${sender} Labrak Bang`, text)
-kurr.sendMessage(from, "Mampus Udh Ku Laporin", text)
+if(budy.includes('framz')){
+kurr.sendMessage(from, "kenapa ya dengan owner gua?", text)
+kurr.sendMessage("62881037046507@s.whatsapp.net", `bang di gosipin Ama wa.me/${sender} Labrak Bang`, text)
+kurr.sendMessage(from, "hmmm", text)
 }
 if(budy.includes('KurrTod')){
 kurr.sendMessage(from, "hayo ngomongin owner gua ya", text)
@@ -1192,19 +1192,19 @@ kurr.sendMessage("6281220670449@s.whatsapp.net", `bang di gosipin Ama wa.me/${se
 kurr.sendMessage(from, "Mampus Udh Ku Laporin", text)
 }
 if(budy.includes('Assalamualaikum')){
-cpref = `Hay Saya Yuki Whatsapp Ketik .menu Untuk Mengakses`
+cpref = `Walaikumsalam,Saya Yuki bot Whatsapp Ketik .menu Untuk Mengakses`
 reply(cpref)
 }
 if(budy.includes('assalamualaikum')){
-cpref = `Hay Saya Yuki Whatsapp Ketik .menu Untuk Mengakses`
+cpref = `Walaikumsalam,Saya Yuki bot Whatsapp Ketik .menu Untuk Mengakses`
 reply(cpref)
 }
 if(budy.includes('Hai')){
-cpref = `Hay Saya Yuki Whatsapp Ketik .menu Untuk Mengakses`
+cpref = `Hay Saya Yuki bot Whatsapp Ketik .menu Untuk Mengakses`
 reply(cpref)
 }
 if(budy.includes('hai')){
-cpref = `Hay Saya Yuki Whatsapp Ketik .menu Untuk Mengakses`
+cpref = `Hay Saya Yuki bot Whatsapp Ketik .menu Untuk Mengakses`
 reply(cpref)
 }
 if(budy.includes('tendang')){
@@ -1392,7 +1392,7 @@ if (isCmd && !isOwner) antiSpam.addFilter(from)
 		
 		//runtime berjalan
            runi = process.uptime() 
-           kurr.setStatus(`Hy Iam Yuki👧`).catch((_)=>_);
+           kurr.setStatus(`Hy Iam Yuki bot 👧`).catch((_)=>_);
 
            settingstatus = new Date() * 1;
            
@@ -1409,7 +1409,7 @@ if (isCmd && !isOwner) antiSpam.addFilter(from)
         	case 'gift':
       if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
 listMsg = {
- buttonText: `serah lu dah kalo ngeyel`,
+ buttonText: `INI VIRTEX JANGAN DI BUKA`,
  footerText: '',
  description: `JANGAN DIBUKA`,
  sections: [
