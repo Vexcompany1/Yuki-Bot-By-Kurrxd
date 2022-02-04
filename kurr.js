@@ -1488,7 +1488,7 @@ kurr.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mention
                            },
                            {
                            "title": "harammenu",
-                              "description": '•|----18+ Menu----|•',
+                              "description": '•|----Tobat Menu----|•',
                               "rowId": ""
                            },
                            {
@@ -1508,7 +1508,7 @@ kurr.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mention
                            },
 
                            {
-                              "title": "QRISS",
+                              "title": "Donate",
                               "description": '•|----FOR DONATE----|•',
                               "rowId": ""
                            },
@@ -2334,77 +2334,13 @@ case 'harammenu':
        ini_txt += `~${get_result.quote}`
        
        menu = `*─❒ MENU HARAM*
-_書 ${prefix}bokep_
-_書 ${prefix}neko_
-_書 ${prefix}kanna_
-_書 ${prefix}sagiri_
-_書 ${prefix}megumin_
-_書 ${prefix}wallnime_
-_書 ${prefix}ass_
-_書 ${prefix}ahegao_
-_書 ${prefix}hentai_
-_書 ${prefix}yuri_
-_書 ${prefix}panties_
-_書 ${prefix}neko_
-_書 ${prefix}chiisaihentai_
-_書 ${prefix}trap_
-_書 ${prefix}blowjob_
-_書 ${prefix}yaoi_
-_書 ${prefix}ecchi_
-_書 ${prefix}ahegao_
-_書 ${prefix}hololewd_
-_書 ${prefix}sideoppai_
-_書 ${prefix}animefeets_
-_書 ${prefix}animebooty_
-_書 ${prefix}animethighss_
-_書 ${prefix}hentaiparadise_
-_書 ${prefix}animearmpits_
-_書 ${prefix}hentaifemdom_
-_書 ${prefix}lewdanimegirls_
-_書 ${prefix}biganimetiddies_
-_書 ${prefix}animebellybutton_
-_書 ${prefix}hentai4everyone_
-_書 ${prefix}bj_
-_書 ${prefix}ero_
-_書 ${prefix}cum_
-_書 ${prefix}feet_
-_書 ${prefix}yuri_
-_書 ${prefix}trap_
-_書 ${prefix}lewd_
-_書 ${prefix}feed_
-_書 ${prefix}eron_
-_書 ${prefix}solo_
-_書 ${prefix}gasm_
-_書 ${prefix}poke_
-_書 ${prefix}anal_
-_書 ${prefix}holo_
-_書 ${prefix}tits_
-_書 ${prefix}kuni_
-_書 ${prefix}kiss_
-_書 ${prefix}erok_
-_書 ${prefix}smug_
-_書 ${prefix}baka_
-_書 ${prefix}solog_
-_書 ${prefix}feetg_
-_書 ${prefix}lewdk_
-_書 ${prefix}waifu_
-_書 ${prefix}pussy_
-_書 ${prefix}femdom_
-_書 ${prefix}cuddle_
-_書 ${prefix}eroyuri_
-_書 ${prefix}cum_jpg_
-_書 ${prefix}blowjob_
-_書 ${prefix}erofeet_
-_書 ${prefix}holoero_
-_書 ${prefix}classic_
-_書 ${prefix}erokemo_
-_書 ${prefix}fox_girl_
-_書 ${prefix}futanari_
-_書 ${prefix}lewdkemo_
-_書 ${prefix}wallpaper_
-_書 ${prefix}pussy_jpg_
-_書 ${prefix}kemonomimi_
-_書 ${prefix}nsfw_avatar_        
+_書 ${prefix}Tobat_
+_書 ${prefix}ingat_
+_書 ${prefix}Tuhan_
+_書 ${prefix}Ibadah_
+_書 ${prefix}dosa_
+_書 ${prefix}Stay_
+_書 ${prefix}halal_       
        
  `
 sendButLocation(from, `${menu}`, "*_© Yuki ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
